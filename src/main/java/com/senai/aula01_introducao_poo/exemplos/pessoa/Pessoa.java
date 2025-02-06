@@ -7,12 +7,15 @@ public class Pessoa {
     Endereco endereco;
 
 
-        public Pessoa(String nome, int idade, float altura, Endereco endereco) {
+
+    public Pessoa(String nome, int idade, float altura, Endereco endereco) {
             this.nome = nome;
             this.idade = idade;
             this.altura = altura;
             this.endereco = endereco;
-        }
+
+    }
+
 
         public void falar(String frase) {
             System.out.println(frase);
