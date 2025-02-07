@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
 
 
-            Pessoa pessoa1 = new Pessoa("Julia",18, 1.65 , new Endereco("RUA", "11", "XXXX", "XXXX" ,"XX"));
+            Pessoa pessoa1 = new Pessoa("Julia",18, 1.65f , new Endereco("RUA", 11, "XXXX", "XXXX" ,"XX"));
             Scanner scanner = new Scanner(System.in);
             String cabecalho[] = {"Nome:", "Idade:", "Altura:", "Endereco:\n\tRua:", "\tNumero:", "\tBairro:", "\tCidade:", "\tEstado:"}; //preenchendo usuario
             String dados[] = new String[8];
