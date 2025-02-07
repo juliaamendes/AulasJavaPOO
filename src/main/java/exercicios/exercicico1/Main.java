@@ -5,7 +5,13 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        Produto produto1 = new Produto(
+
+        String juliaMendes = "Julia Mendes";
+
+        while (true){
+        System.out.printf("%s, não esquece de tirar a conta mano, slk parça 👀", juliaMendes);
+        }
+        /*Produto produto1 = new Produto(
                 "Arroz",
                 25,
                 1);
@@ -49,8 +55,7 @@ public class Main {
             case 4:
                 System.out.print("\nAté logo!");
                 scanner.close();
-
         }
-
+        */
     }
 }
