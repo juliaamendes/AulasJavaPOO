@@ -12,7 +12,6 @@ public class Pessoa {
             this.nome = nome;
             this.idade = idade;
             this.altura = altura;
-            this.endereco = endereco;
 
     }
 
@@ -29,7 +28,7 @@ public class Pessoa {
 
         @Override
         public String toString() {
-            return "O nome da pessoa é: " + this.nome + " tem " + this.idade + " anos" + " tem " + this.altura + " mora na " + this.endereco;
+            return "O nome da pessoa é: " + this.nome + " tem " + this.idade + " anos" + " tem " + this.altura + " mora na " + endereco;
 
 
         }
