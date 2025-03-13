@@ -13,7 +13,6 @@ public class Produtos {
             this.nomeProduto = nomeProduto;
         }
 
-        //setters
         public void setNomeProduto(String nomeProduto) {
             this.nomeProduto = nomeProduto;
         }
@@ -25,8 +24,6 @@ public class Produtos {
                 throw new IllegalArgumentException("O valor não pode ser negativo.");
             }
         }
-
-        //getters
         public String getNomeProduto() {
             return nomeProduto;
         }
@@ -42,7 +39,6 @@ public class Produtos {
             Produtos produtos = (Produtos) o;
             return Double.compare(precoProduto, produtos.precoProduto) == 0 && Objects.equals(nomeProduto, produtos.nomeProduto);
         }
-
         @Override
         public int hashCode() {
             return Objects.hash(nomeProduto, precoProduto);
@@ -50,7 +46,7 @@ public class Produtos {
 
         @Override
         public String toString() {
-            return "--------------\nProduto: " + nomeProduto + "\nPreço: " + precoProduto + "\n--------------";
+            return "\nProduto: " + nomeProduto + "\nPreço: " + precoProduto + "\n";
         }
     }
 

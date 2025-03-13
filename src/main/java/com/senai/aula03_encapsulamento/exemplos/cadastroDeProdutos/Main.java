@@ -11,7 +11,7 @@ public class Main {
             produto1.setPrecoProduto(10.0);
             produto2.setPrecoProduto(0500.0);
 
-            System.out.println("----Produtos Atualizados----");
+            System.out.println("Atualizado");
             System.out.println(produto1);
             System.out.println(produto2);
 
