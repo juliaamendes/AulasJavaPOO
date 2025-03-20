@@ -8,7 +8,7 @@ public class Coordenador extends Funcionario {
 
     public Coordenador(String nome, double salario, List<Professor> equipeProfessor) {
         super(nome, salario);
-        this.equipeProfessor = new ArrayList<>();
+        this.equipeProfessor = equipeProfessor;
     }
     public void adicionarProfessor( Professor professor){
         equipeProfessor.add(professor);
@@ -18,8 +18,9 @@ public class Coordenador extends Funcionario {
     public void exibirDados() {
         super.exibirDados();
         System.out.println("Equipe de Professores: ");
-        for (Professor prof: equipeProfessor);
-        System.out.println(" -"+equipeProfessor.nome);
+        for (Professor professor: equipeProfessor) {
+            System.out.println(" -" + professor.getNome());
+        }
     }
 
 }
