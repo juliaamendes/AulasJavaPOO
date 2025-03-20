@@ -1,4 +1,4 @@
-package com.senai.aula04_herança.exemplos.sistemasDeCadastro;
+package com.senai.aula04_herança.exercicios.sistemasDeProdutos;
 
 public class Funcionario {
     private String nome;
@@ -36,3 +36,4 @@ public class Funcionario {
         System.out.printf("Nome: %s , Salario R$%,.2f\n ",nome,salario);
     }
 }
+
