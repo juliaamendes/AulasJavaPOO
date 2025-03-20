@@ -25,5 +25,6 @@ public class Professor extends Funcionario {
     public void exibirDados() {
         super.exibirDados();
         System.out.println("Disciplina: "+ Disciplina);
+
     }
 }

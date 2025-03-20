@@ -19,6 +19,7 @@ public class Coordenador extends Funcionario {
         super.exibirDados();
         System.out.println("Equipe de Professores: ");
         for (Professor prof: equipeProfessor);
-        System.out.println(" -"+);
+        System.out.println(" -"+equipeProfessor.nome);
     }
+
 }

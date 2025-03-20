@@ -35,5 +35,6 @@ public class Funcionario {
     public void exibirDados(){
         System.out.printf("Nome: %s , Salario R$%,.2f\n ",nome,salario);
     }
+
 }
 
