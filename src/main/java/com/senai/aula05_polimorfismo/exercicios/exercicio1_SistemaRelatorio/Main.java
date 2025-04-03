@@ -5,7 +5,7 @@ public class Main {
         Relatorio[] relatorio ={
                 new PDF("PDF Escolar, tamanho: 200mb"),
                 new CSV("CSV Empresa, relatorio semanal, tamanho: 100mb"),
-                new JSON("JSON Visual Studio Code, informação de falhas, tamanho 1GB")
+                new JSON("JSON Visual Studio Code, informação de falhas, tamanho: 1GB")
         };
         for (Relatorio r: relatorio){
             r.gerarRelatorio();
