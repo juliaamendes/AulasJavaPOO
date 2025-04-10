@@ -1,4 +1,4 @@
-package com.senai.aula06_abstracao.exemplos.animais;
+package com.senai.aula06_abstracao.exemplos.Animais;
 
 public class TesteAnimal {
     public static void main(String[] args) {
