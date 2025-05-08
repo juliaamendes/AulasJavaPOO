@@ -2,6 +2,7 @@ package com.senai.aula07_mvc.crud_usuario.controller;
 
 import com.senai.aula07_mvc.crud_usuario.model.Operador;
 import com.senai.aula07_mvc.crud_usuario.model.OperadorDAO;
+import com.senai.aula07_mvc.crud_usuario.model.Supervisor;
 
 import java.util.List;
 
@@ -9,7 +10,7 @@ public class OperadorController {
      public OperadorDAO operadorDAO = new OperadorDAO ();
 
     public List<Operador> listarOperadores(){
-        List<Operador> lista;
+        List<Operador> lista = List.of();
         return lista;
     }
 
@@ -36,6 +37,9 @@ public class OperadorController {
                 return true;
 
         }
+
+    public void atualizarSupervisor(Supervisor supervisor) {
     }
+}
 
 
